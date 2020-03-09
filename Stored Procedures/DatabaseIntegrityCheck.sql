@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[DatabaseIntegrityCheck]
 
 @Databases nvarchar(max) = NULL,
-@CheckCommands nvarchar(max) = 'CHECKDB',
+@CheckCommands nvarchar(max) = 'CHECKD,
 @PhysicalOnly nvarchar(max) = 'N',
 @NoIndex nvarchar(max) = 'N',
 @ExtendedLogicalChecks nvarchar(max) = 'N',
